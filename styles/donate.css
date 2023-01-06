@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+/* Multiple Access */
+
+.btn-primary{
+    background-color: #7e1f1f;
+    border: 0;
+    padding: 12px 35px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+}
+.section-title{
+    font-size: 35px;
+    font-weight: 700;
+    color: rgb(1, 0, 0);
+    margin-top: 90px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.section-description{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    color: #757575;
+
+}
+/* Header Style */
+
+
+.header-container{
+    background-image:
+    linear-gradient(rgba(41, 37, 37, 0.4), rgba(13, 4, 4, 0.8)), 
+    url('../images/donation3.jpg');
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.hero-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+   
+}
+.hero-title{
+    font-size: 50px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    line-height: 55px;
+    text-transform: capitalize;
+}
+.hero-description{
+    font-size: 18px;
+    font-weight: 400;
+    color: aliceblue;
+    text-align: center;
+    margin: 20px 0;
+    letter-spacing: 2px;
+}
+.donate-price{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 60px;;
+}
+.price{
+    font-size: 30px;
+}
+.donate-price li{
+    list-style: none;
+   
+}
+.donate-price li a{
+    text-decoration: none;
+    color: #474747;
+    font-weight: 600;
+    background: #ebe5e5;
+    padding: 25px 27px;
+    
+}
+.donate-price li a:hover{
+    color: #b01d1d;
+    border: 1px solid rgb(201, 98, 98);
+    background-color: #f5e4e4;
+    transition: 0.6s;
+}
+.donate-price-section{
+    margin-bottom: 70px;
+}
+.donate-input-price{
+    width: 500px;
+   border: none;
+   border-bottom: 1px solid rgb(184, 179, 179);
+   display: block;
+   margin: 30px auto;
+}
+input[type="number"]::placeholder {  
+                  
+    /* Firefox, Chrome, Opera */ 
+    text-align: center;
+     
+} 
+.submit-taka{
+    display: block;
+    margin: 0 auto;
+}
+.donate-card{
+    display: flex;
+    justify-content: center;
+    margin: 30px 200px 120px;
+    gap: 20px;
+}
+.item-1{
+    background-color: rgb(190, 227, 220);
+    padding: 40px 15px 40px 15px;
+}
+.item-2{
+    background-color: rgb(253, 241, 243);
+    padding: 40px 15px 40px 15px;
+}
+.item-3{
+    background-color: rgb(253, 240, 211);
+    padding: 40px 15px 40px 15px;
+}
+.card-item-title{
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+    margin: 25px 0 20px 0;
+}
+.card-item-description{
+    font-size: 15px;
+    color: #757575;
+    font-weight: 400px;
+    padding: 0 20px 0 0;
+}
+.contribute-section{
+    display: flex;
+    margin: 80px 250px 0 200px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.contribute-image{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    justify-content: flex-start;
+    margin-right: 100px;
+}
+.contribute-title{
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+.contribute>p{
+    font-size: 15px;
+    font-weight: 400;
+    /* padding-right: 50px; */
+    line-height: 20px;
+}
+.contribute-right{
+    margin-left: 80px;
+}
+.contribute-image-right{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    justify-content: flex-start;
+    margin-right: 80px;
+}
+.subscription-form{
+    background-color: rgb(252, 230, 200);
+   padding: 65px ;
+   margin: 40px 300px;
+   border-radius: 5px;
+}
+.input{
+   display: flex;
+   justify-content: center;
+   gap: px;
+}
+.sub-input{
+    height: 40px;
+    width: 300px;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid gray;
+    background-color: #edecec;
+}
+.btn-subscribe{
+    background-color: #b01d1d;
+    padding: 10px 35px;
+    border: 0;
+    border-radius:0 5px 5px 0;
+    color: #fff;
+    font-weight: 600;
+}
+.footer-container{
+    background-color: rgb(2, 2, 20);
+    padding: 40px 0;
+    margin-top: 110px;
+}
+.footer-title{
+    color: rgb(216, 31, 31);
+    margin-bottom: 18px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.footer-sub-title{
+    text-align: center;
+    color: white;
+    font-size: 13px;
+}
